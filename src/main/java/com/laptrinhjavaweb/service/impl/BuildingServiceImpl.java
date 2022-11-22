@@ -18,8 +18,9 @@ import com.laptrinhjavaweb.service.BuildingService;
 import com.laptrinhjavaweb.service.RentAreaService;
 import com.laptrinhjavaweb.utils.MapUtil;
 import com.laptrinhjavaweb.utils.ParseIntUtil;
-import javassist.NotFoundException;
+//import javassist.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.acls.model.NotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

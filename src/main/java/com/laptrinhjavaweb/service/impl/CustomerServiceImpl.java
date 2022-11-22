@@ -10,8 +10,9 @@ import com.laptrinhjavaweb.entity.CustomerEntity;
 import com.laptrinhjavaweb.repository.CustomerRepository;
 import com.laptrinhjavaweb.repository.UserRepository;
 import com.laptrinhjavaweb.service.CustomerService;
-import javassist.NotFoundException;
+//import javassist.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.acls.model.NotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

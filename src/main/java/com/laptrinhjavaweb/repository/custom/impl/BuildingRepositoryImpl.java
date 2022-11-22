@@ -24,7 +24,7 @@ public class BuildingRepositoryImpl implements BuildingRepositoryCustom {
     public List<BuildingEntity> findAll(BuildingSearchBuilder buildingSearchBuilder) {
         try {
             String sql = SqlUtils.toQuery(buildingSearchBuilder,buildDifferent(buildingSearchBuilder));
-            System.out.println("tuan"+sql);
+            System.out.println("thong"+sql);
             Query query = entityManager.createNativeQuery(sql, BuildingEntity.class);
             return query.getResultList();
         } catch (Exception e) {

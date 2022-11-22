@@ -7,8 +7,9 @@ import com.laptrinhjavaweb.dto.response.BuildingResponse;
 import com.laptrinhjavaweb.dto.response.StaffAssignmentResponse;
 import com.laptrinhjavaweb.service.BuildingService;
 import com.laptrinhjavaweb.service.impl.UserService;
-import javassist.NotFoundException;
+//import javassist.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.acls.model.NotFoundException;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

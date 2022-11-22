@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: MinhTuan
-  Date: 12/01/2022
-  Time: 8:32
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="/common/taglib.jsp" %>
 <c:url var="customerListURL" value="/admin/customer-list"></c:url>

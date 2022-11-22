@@ -4,9 +4,10 @@ import com.laptrinhjavaweb.dto.CustomerDTO;
 import com.laptrinhjavaweb.dto.response.StaffAssignmentResponse;
 import com.laptrinhjavaweb.service.CustomerService;
 import com.laptrinhjavaweb.service.IUserService;
-import javassist.NotFoundException;
+//import javassist.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.acls.model.NotFoundException;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

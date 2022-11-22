@@ -4,7 +4,8 @@ import com.laptrinhjavaweb.dto.BuildingDTO;
 import com.laptrinhjavaweb.dto.request.BuildingDelRequest;
 import com.laptrinhjavaweb.dto.request.BuildingSearchRequest;
 import com.laptrinhjavaweb.dto.response.BuildingResponse;
-import javassist.NotFoundException;
+//import javassist.NotFoundException;
+import org.springframework.security.acls.model.NotFoundException;
 
 import java.util.List;
 import java.util.Map;
